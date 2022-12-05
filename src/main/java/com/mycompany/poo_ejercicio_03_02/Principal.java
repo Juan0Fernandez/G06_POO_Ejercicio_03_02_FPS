@@ -12,12 +12,12 @@ package com.mycompany.poo_ejercicio_03_02;
 public class Principal {
     
     public static void main(String[] args) {
-        /*var ventana = new Inscribete("Registro de inscripcion");*/
+       
         var datoPersonal = new DatoPersonal("Datos Personales");
         var crearGrupo = new CrearGrupo("Crear Grupo");
         var infoCarrera = new InformacionCarrera("Informacion de la carrera");
-        
-        
+        var inscribete1 = new Inscribete("Inscribete");
+        var ventana1 = new Final ("Ventana");
     
     }
 }
